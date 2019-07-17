@@ -1,6 +1,7 @@
 body {
 	background: white;
 	font-family: 'Open Sans', sans-serif;
+	overflow-y:hidden;
 }
 
 #me {
@@ -26,12 +27,11 @@ li {
 	color: #f26d6d;
 }
 
-.borde {
-	border: 1px solid white;
-	background: red;
+#navbar li{
+	text-align: center;
 }
 
-#cabecera {
+#main-header {
 	width: auto;
 	height: 100vh;
 	padding: 50px;
@@ -46,14 +46,14 @@ li {
 	align-items: center;
 }
 
-#cabecera h1,
+#main-header h1,
 h2 {
 	font-size: 70px;
 	font-weight: 800;
 	text-shadow: -4px -4px 0 #000;
 }
 
-#cabecera h2 {
+#main-header h2 {
 	font-weight: 500;
 }
 
