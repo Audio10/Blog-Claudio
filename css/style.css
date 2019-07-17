@@ -1,84 +1,103 @@
-body{
-    background: white;
-    font-family: 'Open Sans', sans-serif;
+body {
+	background: white;
+	font-family: 'Open Sans', sans-serif;
 }
 
-#me{
-    margin-left: 50px;
-    /* margin-top: 50px; */
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
+#me {
+	margin-left: 50px;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	/* margin-top: 25vh; */
 }
 
-li{
-    margin-left: 70px;
+.aling-c {
+	display: flex;
 }
 
-.description{
-    text-align: center;
-    color: #F26D6D;
+li {
+	margin-left: 70px;
 }
 
-#cabecera{
-    padding: 50px;
-    background-image: url(../imagenes/fondo1.jpg);
-    background-size: cover;
-    background-position-y: 60%;
+#description {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 3;
+	color: #f26d6d;
 }
 
-#cabecera h1 , h2{
-    font-size: 70px;
-    font-weight: 800;
-    text-shadow:  -4px -4px 0 #000;
+.borde {
+	border: 1px solid white;
+	background: red;
 }
 
-#cabecera h2{
-    font-weight: 500;
+#cabecera {
+	width: auto;
+	height: 100vh;
+	padding: 50px;
+	background-image: url(../imagenes/fondo1.jpg);
+	background-size: cover;
 }
 
-#header{
-    font-size: 18px;
+.center {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#professional-objective{
-    text-align: center;
+#cabecera h1,
+h2 {
+	font-size: 70px;
+	font-weight: 800;
+	text-shadow: -4px -4px 0 #000;
 }
 
-#professional-objective h3{
-    /* color: #F23D3D; */
-    font-size: 38px;
+#cabecera h2 {
+	font-weight: 500;
 }
 
-hr{
-    border: 10px solid #A6656A;
-    border-radius: 15px;
+#header {
+	font-size: 18px;
 }
 
-#professional-objective p{
-    margin-top: 150px;
-    font-size: 1.5em;
+#professional-objective {
+	text-align: center;
 }
 
-#social-networks img{
-    width: 50px;
+#professional-objective h3 {
+	/* color: #F23D3D; */
+	font-size: 38px;
 }
 
-#contact-information{
-    padding: 30px;
+hr {
+	border: 10px solid #a6656a;
+	border-radius: 15px;
 }
 
-#contact-information h3{
-    text-align: center;
+#professional-objective p {
+	margin-top: 150px;
+	font-size: 1.5em;
 }
 
-#footer{
-    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+#social-networks img {
+	width: 50px;
 }
 
-#footer a{
-    color: white;
+#contact-information {
+	padding: 30px;
 }
 
+#contact-information h3 {
+	text-align: center;
+}
+
+#footer {
+	background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a {
+	color: white;
+}
 
 

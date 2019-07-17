@@ -1,0 +1,89 @@
+<div class="header">
+
+        <div class="container">
+
+            <figure class="logo">
+                <img src="" alt="Mi logo personal">
+            </figure>
+
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a href="" class="link"></a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Experiencia</a>
+                    </li>
+                </ol>
+            </nav>
+
+        </div>
+
+    </div>
+
+
+    .header{
+    background: #1b2127;
+    color: white;
+}
+
+
+ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+}
+
+
+
+
+
+
+
+<!-- <main class="">
+        <section>
+            <div class="container-fluid mt-5 mb-5">
+                <div class="row">
+                    <div id="contact-information" class="col-3">
+                        <h3> Informacion de contacto</h3>
+                        <hr>
+                        <div id="social-networks">
+                            <div class="item">
+                                <figure>
+                                    <a href="https://mx.linkedin.com/in/claudio-vazquez-villanueva-412489b6"> <img src="imagenes/icons/li.jpg" alt="Linkedin"> Claudio Vazquez Villanueva</a>
+                                </figure>
+                                <figure>
+                                    <a href="https://www.facebook.com/cvazquezvillanueva"><img src="imagenes/icons/facebook.jpg" alt="Facebook"> cvazquezvillanueva</a>
+                                </figure>
+                                <figure>
+                                    <a href="https://www.instagram.com/claudiojvv10/?hl=es-la"> <img src="imagenes/icons/instagram.jpg" alt="Instagram">claudiojvv10</a>
+                                </figure>
+                                <figure>
+                                    <a href="https://twitter.com/claudiojvv"> <img src="imagenes/icons/twitter.jpg" alt="Twitter"> claudiojvv</a>
+                                </figure>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="professional-objective" class="col-4 offset-2">
+                        <p>
+                            Soy un programador back-end JAVA con 6 meses de experiencia en desarrollo de software. Busco colaborar en una posición
+                            como developer ya que recientemente me he estado formando para convertirme en un Fullstack developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> -->
