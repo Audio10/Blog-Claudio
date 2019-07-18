@@ -1,12 +1,15 @@
+
+@media screen and (max-width: 420px) {
+  #main-header h1 {
+    font-size: 36px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .center {
     height: 90vh;
     justify-content: center;
     align-items: flex-start;
-  }
-  
-  #main-header h1 {
-    font-size: 36px;
   }
 }
 
