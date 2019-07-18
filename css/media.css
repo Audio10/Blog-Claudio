@@ -1,5 +1,36 @@
-@media screen and ( max-width: 991.98px) {
-  #navbar li{
-	  text-align: center;
+@media screen and (max-width: 991.98px) {
+  
+  
+
+  #navbar li {
+    text-align: center;
   }
+
+  .title{
+    align-items: initial;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #me {
+    margin-left: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+    #me {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+
+  .title h1{
+    font-size: 1.8rem;
+  }
+
+  
 }
