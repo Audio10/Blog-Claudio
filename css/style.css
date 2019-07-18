@@ -1,103 +1,52 @@
 body {
-	background: white;
-	font-family: 'Open Sans', sans-serif;
-	overflow-y:hidden;
+  background: white;
+  font-family: "Open Sans", sans-serif;
+  overflow-y: hidden;
 }
 
 #me {
-	margin-left: 50px;
-	height: 400px;
-	width: 400px;
-	border-radius: 50%;
-	/* margin-top: 25vh; */
-}
-
-.aling-c {
-	display: flex;
+  margin-left: 50px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 2px double black;
+  /* margin-top: 25vh; */
 }
 
 li {
-	margin-left: 70px;
+  margin-left: 70px;
 }
 
 #description {
-	text-align: center;
-	display: grid;
-	grid-template-columns: 3;
-	color: #f26d6d;
-}
-
-#navbar li{
-	text-align: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 3;
+  color: #f26d6d;
 }
 
 #main-header {
-	width: auto;
-	height: 100vh;
-	padding: 50px;
-	background-image: url(../imagenes/fondo1.jpg);
-	background-size: cover;
+  width: auto;
+  height: 100vh;
+  padding: 50px;
+  background-image: url(../imagenes/fondo1.jpg);
+  background-size: cover;
 }
 
 .center {
-	height: 90vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#main-header h1,
-h2 {
-	font-size: 70px;
-	font-weight: 800;
-	text-shadow: -4px -4px 0 #000;
-}
-
-#main-header h2 {
-	font-weight: 500;
+#main-header h1 {
+  font-family: "Press Start 2P", cursive;
+  color: #d9d9d9;
+  font-size: 49px;
+  -webkit-text-stroke: 1px black;
+  text-shadow: -5px -5px 0 #000;
 }
 
 #header {
-	font-size: 18px;
+  font-size: 18px;
 }
-
-#professional-objective {
-	text-align: center;
-}
-
-#professional-objective h3 {
-	/* color: #F23D3D; */
-	font-size: 38px;
-}
-
-hr {
-	border: 10px solid #a6656a;
-	border-radius: 15px;
-}
-
-#professional-objective p {
-	margin-top: 150px;
-	font-size: 1.5em;
-}
-
-#social-networks img {
-	width: 50px;
-}
-
-#contact-information {
-	padding: 30px;
-}
-
-#contact-information h3 {
-	text-align: center;
-}
-
-#footer {
-	background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-}
-
-#footer a {
-	color: white;
-}
-
-
