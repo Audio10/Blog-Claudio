@@ -1,13 +1,7 @@
 @media screen and (max-width: 991.98px) {
-  
-  
-
   #navbar li {
+    margin-left: 0;
     text-align: center;
-  }
-
-  .title{
-    align-items: initial;
   }
 }
 
@@ -28,7 +22,8 @@
     border-radius: 50%;
   }
 
-  .title h1{
+  #title h1{
+    
     font-size: 1.8rem;
   }
 
