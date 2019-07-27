@@ -16,10 +16,6 @@ li {
   background-size: cover;
 }
 
-#intro-container {
-  height: 90vh;
-} 
-
 #title {
   height: 50vh; 
   font-family: "Press Start 2P", cursive;
@@ -28,4 +24,8 @@ li {
   text-align: center;
   -webkit-text-stroke: 1px black;
   text-shadow: -5px -5px 0 #000;
+}
+
+#container{
+  height: 90vh;
 }
