@@ -1,4 +1,4 @@
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 991px) {
   #navbar li {
     margin-left: 0;
     text-align: center;
@@ -23,7 +23,6 @@
   }
 
   #title h1{
-    
     font-size: 1.8rem;
   }
 
